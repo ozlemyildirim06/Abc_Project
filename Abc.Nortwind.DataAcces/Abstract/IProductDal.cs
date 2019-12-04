@@ -6,8 +6,8 @@ using System.Text;
 
 namespace Abc.Northwind.DataAcces.Abstract
 {
-   public interface IProductDal:IEntityRepository<Product>
+    public interface IProductDal : IEntityRepository<Product>
     {
-
+        void Delete(int productId);
     }
 }

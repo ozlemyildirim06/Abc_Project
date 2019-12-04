@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+    <ProjectReference Include="..\Abc.Core\Abc.Core.csproj" />
+    <ProjectReference Include="..\Abc.Northwind.Entities\Abc.Northwind.Entities.csproj" />
+    <ProjectReference Include="..\Abc.Nortwind.DataAcces\Abc.Northwind.DataAcces.csproj" />
   </ItemGroup>
 
 </Project>
