@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Abc.Nortwind.DataAcces.Abstract
+namespace Abc.Northwind.DataAcces.Abstract
 {
   public interface ICategoryDal: IEntityRepository<Category>
     {
